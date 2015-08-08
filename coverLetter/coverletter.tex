@@ -1,0 +1,83 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\makeatletter
+\patchcmd{\makelettertitle}% <cmd>
+  {\raggedright \@opening}% <search>
+  {\@opening}% <replace>
+  {}{}
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Mohamed}{Mohamed}
+\title{Cover Letter}                               % optional, remove / comment the line if not wanted
+%\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+1 000 000 0000}                  % optional, remove / comment the line if not wanted
+\phone[fax]{+1 000 000 0000}                    % optional, remove / comment the line if not wanted
+\email{midoblgsm@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{http://www-inf.int-evry.fr/\~mohame_m}                         % optional, remove / comment the line if not wanted
+\extrainfo{IBM Research, Almaden Research Center}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{X X Lab}{Country, City}
+\date{\today}
+\opening{Dear Sir/Madam,}
+\closing{Yours faithfully,}         % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+I wish to apply for the position of Cloud Researcher as advertised on \emph{xxxx} web site under the number \emph{xxxx} on \emph{Date}. I believe I would enjoy the challenge and the opportunity to continue working on Cloud domain provided by this position. I also recognize the invaluable experience that would be gained working with one of the largest name in the industry.
+
+I am currently completing \emph{Describe the amazing things you are doing}. Over the last year, I have been working on Cloud Computing going from Services provisioning to monitoring and reconfiguration of Cloud Resources.
+As explained in my CV, my work on this domain gave me a good expertise with \emph{xxxx}. 
+
+During my PhD, I was involved in different research projects \emph{"Describe your projects}. That allowed me to strengthen my teamwork, problem-solving and decision-making abilities. I believe that these factors, along with my broad information technology knowledge base, my experience with \emph{Add more skills} and my personal skills such as initiative, creativity, adaptability and a willingness to learn enable me to excel in the role of a \emph{... Job}. 
+
+I believe that having this job is the best opportunity to put in practice my knowledge and experience in Cloud Computing and particularly on \emph{...}. Moreover, through this opportunity, I am determined to extend my international experience and knowledge. 
+
+Please don't hesitate to contact me should you need any further information.
+
+I look forward to hearing from you at your earliest convenience.
+
+
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.
