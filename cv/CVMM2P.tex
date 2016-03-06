@@ -54,22 +54,27 @@
 \familyname{MOHAMED}
 \title{Postdoc Researcher at IBM Research Labs, USA}               % optional, remove the line if not wanted
 \address{650 HARRY ROAD, IBM ALMADEN RESEARCH CENTER}{SJH CA 95120}    % optional, remove the line if not wanted
-\mobile{+1(408)-409-3538}                     % optional, remove the line if not wanted
+\mobile{+1(408)-768-5903}                     % optional, remove the line if not wanted
 \phone{+1(408)-927-1529}                      % optional, remove the line if not wanted
 %\fax{+33160764780}                        % optional, remove the line if not wanted
-\email{midoblgsm@gmail.com}                          % optional, remove the line if not wanted
-\homepage{http://researcher.ibm.com/researcher/view.php?person=us-mmohamed}            % optional, remove the 
+\email{mmohamed@us.ibm.com}                          % optional, remove the line if not wanted
+\homepage{http://goo.gl/F7j3sN}            % optional, remove the line if not wanted
+%\extrainfo{additional information}            % optional, remove the line if not wanted
+%\photo[64pt][0.4pt]{mm}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Postdoc @ IBM}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
 \makeatletter
 \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 \makeatother
  \makeatletter
+
 
  
  
 \makeatother
 
 \begin{document}
-
 
 \makecvtitle
 \section{Biography} 
@@ -93,109 +98,73 @@ Computing infrastructure for Cloud Resources.
 \subsection{SLA description and management}
 In this work, we are designing a new language for SLA description that we call rSLA. By this language, we aim to propose a very simple and human 
 readable manner to describe all the aspects of SLA using a simple yet powerful ruby-based DSL. Behind that, we are building a holistic infrastructure 
-that allows deploying the SLA and binding all required services to enable the management and enforcement of SLAs.
+that allows deploying, managing and enforcing SLAs.
 \subsection{Enterprise Persistence for PaaS}
-PaaS platforms such as Cloud Foundry typically do not support an inherent persistence model but rely on service access to persistence services. We 
-explore ways of providing enterprise grade object and file system services in the context of containerized application instances for scenarios that 
-still require traditional persistence access such as the reliance on existing tools and libraries or the sharing of data with other applications 
-expecting traditional, direct data access.
+PaaS platforms such as Cloud Foundry typically do not support an inherent persistence model but rely on service access to persistence services. We explore ways of providing enterprise grade object and file system services in the context of containerized application instances for scenarios that still require traditional persistence access such as the reliance on existing tools and libraries or the sharing of data with other applications expecting traditional, direct data access.
 \subsection{OCCI Extension for Platform and Application}
-In this work, we extended OCCI core Model to describe Platform and Application resources. It provides a generic representation of existing 
-platforms and their components. The extension entails all the needed OCCI Resources and Links that allow the provision of Platform and Application Resources. Furthermore, we 
-proposed COAPS as a generic REST API that allows to seamlessly provision applications over different PaaS providers.
+In this work, we extended OCCI core Model to describe Platform and Application resources. We provided a generic representation of existing platforms and their components. The extension entails all the needed OCCI Resources and Links that allow the provision of Platform and Application Resources. Furthermore, we proposed a generic REST API that allows to seamlessly provision applications over different PaaS providers.
 \subsection{OCCI Extension for Autonomic Computing}
  In this work, we extended OCCI standards to provide an Autonomic Computing Loop for Cloud Resources independently of their level. The extension entails all the needed Entities 
 (i.e., Resources and Links) and Mixins that, starting from a Service Level Agreement (SLA), gather and analyze monitoring data. It eventually generates and applies reconfiguration 
-actions on the concerned Resources to honor the SLA.
-\subsection{Scalable Micro-container for service-based applications in cloud computing}
-In this work, we proposed a new Service container dedicated to one deployed service that avoids the processing limits of classical Service containers. Our approach addresses 
-scalability and reduces memory consumption and response time. The evaluation that we performed show the scalability of the proposed Micro-container.
-
+actions on the concerned Resources to enforce the SLA.
+\subsection{Scalable Micro-container for service-based applications in the Cloud}
+In this work, we proposed a new Service container dedicated to one deployed service that avoids the processing limits of classical Service containers. Our approach addresses scalability and reduces memory consumption and response time. The evaluation that we performed show the scalability of the proposed Micro-container.
 
 \section{Academic Research Projects}
 \cvitem{EASI-CLOUDS (\url{http://easi-clouds.eu/})} {Extendable Architecture and Service Infrastructure for CLOUD-computing Software. The objective of EASI-CLOUDS is to provide a 
-comprehensive cloud computing infrastructure that will feature the three classical categories of cloud computing offerings with superior reliability, elasticity, security and 
+comprehensive Cloud infrastructure that will feature the three classical categories of cloud computing offerings with superior reliability, elasticity, security and 
 ease-of-use characteristics at all levels.}
 \cvitem{CompatibleOne (\url{http://www.compatibleone.org/})} {CompatibleOne aims at providing an open and interoperable "cloudware" allowing to create, deploy 
 and manage private, public or hybrid cloud platforms. It offers a simple and unique interface allowing the description of user's needs, in terms of 
 resources, and their subsequent provisioning on the most appropriate cloud provider.}
 \cvitem{Open-PaaS (\url{https://open-paas.org/display/openpaas/Open+PAAS+Overview})} {The OpenPaaS project aims at developing a PaaS (Platform as a Service) technology dedicated to 
 enterprise collaborative applications deployed on hybrid clouds (private / public).}
+\section{IBM Outstanding Accomplishments}
+[1] Foundations of SLA Management for Services and Utility Computing
 \section{Patents}
 [1]"Optimizing monitoring for Software defined ecosystems", H. Ludwig, N. Mandagere, \underline{M. Mohamed} and K. Stamou, May, 2015 \newline
 [2] "System and Method for Discovering and Publishing Device Changes in a Cloud Environment", \underline{M. Mohamed}, B. Langston and Y. Song, May, 2015
+\newline
+[3] "Cost Effective SLA Data Management", H. Ludwig, N. Mandagere, \underline{M. Mohamed}, K. Stamou and G Alatorre, 2015
 \section{Publications}
-\subsection{Submitted papers}
-[1] "Smart Monitoring in the Cloud", \underline{M. Mohamed}, N. Mandagere, H. Ludwig and K. Stamou, CNSM 2015 \newline
+
+[1] "Optimal Assignment of Autonomic Managers to Cloud Resources", \underline{M. Mohamed}, A. Megahed, SOLI 2015 \newline
 [2] "rSLA: Monitoring SLAs in dynamic service environments", H. Ludwig, K. Stamou, \underline{M. Mohamed}, N. Mandagere, B. Langston, 
 G. Alatorre, H. Nakamura, O. Anya and A. Keller, ICSOC 2015 \newline
-[3] "Collaborative Autonomic Management of Distributed Component-based Applications", N. Belhaj, I. B. Lahmar,\underline{M. Mohamed} and D. Bela\"id,  ICSOC 
-2015 \newline
-[4] "Extending OCCI for Autonomic Management in the Cloud", \underline{M. Mohamed}, D. Bela\"id and S. Tata, The Journal of Systems and Software 2015
-\subsection{Accepted papers}
+[3] "Collaborative Autonomic Management of Distributed Component-based Applications", N. Belhaj, I. B. Lahmar,\underline{M. Mohamed} and D. Bela\"id,  ICSOC 2015 \newline
+[4] "Toward Locality-aware Scheduling for Containerized Cloud Services", D. Zhao, N. Mandagere, G. Alatorre, \underline{M. Mohamed} and H. Ludwig, IEEE Big Data 2015
 %\begin{itemize}
-[1] "Collaborative Autonomic Container for the Management of Component-based Applications", N. Belhaj, I. B. Lahmar,\underline{M. Mohamed} and D. Bela\"id,  WETICE 2015 \newline
-[2] "An Autonomic Approach to Manage Elasticity of Business Processes in the Cloud", \underline{M. Mohamed}, M. Amziani, D. Bela\"id, S. Tata and T. Melliti, FGCS Journal, 
+[5] "Collaborative Autonomic Container for the Management of Component-based Applications", N. Belhaj, I. B. Lahmar,\underline{M. Mohamed} and D. Bela\"id,  WETICE 2015 \newline
+[6] "An Autonomic Approach to Manage Elasticity of Business Processes in the Cloud", \underline{M. Mohamed}, M. Amziani, D. Bela\"id, S. Tata and T. Melliti, FGCS Journal, 
 2014 \newline
-[3] "An approach for Monitoring Components Generation and Deployment for SCA Applications", \underline{M. Mohamed}, D. Bela\"id and S. Tata, (book chapter) CCIS 2014 \newline
-[4] "Monitoring and Reconfiguration for OCCI Resources", \underline{M. Mohamed}, D. Bela\"id and S. Tata, CloudCom 2013 \newline
-[5] "PaaS-independent Provisioning and Management of Applications in the Cloud", M. Sellami, S. Yangui, \underline{M. Mohamed} and S. Tata, CLOUD 2013 \newline
-[6] "Self-Managed Micro-Containers for Service-Based Applications in the Cloud", \underline{M. Mohamed}, D. Bela\"id and S. Tata, WETICE 2013 \newline
-[7] "Monitoring of SCA-based Applications in the Cloud", \underline{M. Mohamed}, D. Bela\"id and S. Tata, CLOSER 2013 \newline
-[8] "Adding Monitoring and Reconfiguration Facilities for Service-based Applications in the Cloud", \underline{M. Mohamed}, D. Bela\"id and S. Tata, AINA 2013 \newline
-[9] "How to Provide Monitoring Facilities to Services when they are Deployed in the Cloud?", \underline{M. Mohamed}, D. Bela\"id and S. Tata, CLOSER 2012\newline
-[10] "Scalable service containers", S. Yangui, \underline{M. Mohamed}, S. Tata and S. Moalla,  CloudCom 2011 \newline
-[11] "Service micro-container for service-based applications in Cloud environments", \underline{M. Mohamed}, S. Yangui, S. Moalla and S. Tata,  WETICE 2011\newline
-% \section{Tools}
-% \cvitem{[T1] "COAPS"}{\url{http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/}}
-% \cvitem{[T2] "OCCI Platform and Application"}{\url{www-inf.it-sudparis.eu/SIMBAD/tools/OCCI}}
-% \cvitem{[T3] "OCCI Autonomic"}{\url{http://www-inf.it-sudparis.eu/SIMBAD/tools/OCCI/autonomic/}}
-% %\end{itemize}
+[7] "An approach for Monitoring Components Generation and Deployment for SCA Applications", \underline{M. Mohamed}, D. Bela\"id and S. Tata, (book chapter) CCIS 2014 \newline
+[8] "Monitoring and Reconfiguration for OCCI Resources", \underline{M. Mohamed}, D. Bela\"id and S. Tata, CloudCom 2013 \newline
+[9] "PaaS-independent Provisioning and Management of Applications in the Cloud", M. Sellami, S. Yangui, \underline{M. Mohamed} and S. Tata, CLOUD 2013 \newline
+[10] "Self-Managed Micro-Containers for Service-Based Applications in the Cloud", \underline{M. Mohamed}, D. Bela\"id and S. Tata, WETICE 2013 \newline
+[11] "Monitoring of SCA-based Applications in the Cloud", \underline{M. Mohamed}, D. Bela\"id and S. Tata, CLOSER 2013 \newline
+[12] "Adding Monitoring and Reconfiguration Facilities for Service-based Applications in the Cloud", \underline{M. Mohamed}, D. Bela\"id and S. Tata, AINA 2013 \newline
+[13] "How to Provide Monitoring Facilities to Services when they are Deployed in the Cloud?", \underline{M. Mohamed}, D. Bela\"id and S. Tata, CLOSER 2012\newline
+[14] "Scalable service containers", S. Yangui, \underline{M. Mohamed}, S. Tata and S. Moalla,  CloudCom 2011 \newline
+[15] "Service micro-container for service-based applications in Cloud environments", \underline{M. Mohamed}, S. Yangui, S. Moalla and S. Tata,  WETICE 2011\newline
 \section{Community Services}
- % \cvitem {Representative of PhD students at the CNRS Samovar Laboratory Council}{}
- \cvitem {Member of the Technical Program Committee}{\\
--23rd International Conference on COOPERATIVE INFORMATION SYSTEMS, CoopIS 2015\\
--24th IEEE International Conference on Enabling Technologies: Infrastructure for Collaborative Enterprises WETICE 2015\\
--5th International Conference on Cloud Computing and Services Science, CLOSER 2015\\
--6th International Conference on Cloud Computing, GRIDs, and Virtualization, Cloud Computing 2015\\
--1st workshops on Emerging Software as a Service and Analytics, ESaaSA 2014\\
--3rd International Conference on Cloud Computing and Services Science, CLOSER 2014\\
--13th International Conference on Networks, ICN 2014\\
--International Conference on Signal Processing and Telecommunications, ICSPT 2013\\
--8th International Conference on Internet and Web Applications and Services, ICIW 2013
+ \cvitem {Member of the Technical Program Committee}{ICSOC 2016, CoopIS 2016, WETICE 2016, CLOSER 2016,
+CoopIS 2015, WETICE 2015, CLOSER 2015, ESaaSA 2014, CLOSER 2014, ICN 2014, ICSPT 2013,  ICIW 2013
 }
-    \cvitem {Other review activities}{\\
--IEEE Transactions on Cloud Computing, 2014\\
--IEEE Transactions on Computers, 2014\\
--Encyclopedia of Cloud Computing, 2014
+    \cvitem {Other review activities}{Future Generation Computer Systems 2016, IEEE Transactions on Cloud Computing 2016, Elsevier Computer Standards \& Interfaces 2015, IEEE Transactions on Cloud Computing 2014, IEEE Transactions on Computers  2014, Encyclopedia of Cloud Computing, 2014
  }
- \cvitem {Session Chair}{\\
--Third International Conference on Cloud Computing and Services Science, CLOSER' 2013
+ \cvitem {Session Chair}{Third International Conference on Cloud Computing and Services Science, CLOSER' 2013
  }
- \cvitem {Member of the Organization Committee}{ \\
--International Conference on Service Oriented Computing, ICSOC 2014\\
--Summer School on Cloud Computing, SSCC 2013\\
--IEEE International Conference on Collaboration Technologies and Infrastructures, WETICE 2011
+ \cvitem {Member of the Organization Committee}{ICSOC 2014, Summer School on Cloud Computing, SSCC 2013, WETICE 2011
  }
- \cvitem {Guest editor}{ \\
--International Journal of Organizational and Collective Intelligence: Special Issue on Collaboration and Coordination of Autonomic Management in Cloud Environments, 2015.
-  }
   
 \section{Technical skills}
 -Cloud Computing: OpenStack/SoftLayer IaaS, CloudFoundry/BlueMix/OpenShift PaaS \\
 -Containers: Docker, Vagrant, Flocker \\
--Programming Languages: JAVA, C++, C, Ruby, Python \\
--Web Programming: JSP, JSF, JPA, Hibernate, Restlet, Jersey, Flask, Sinatra \\
+-Programming Languages: JAVA, C, Go, Ruby, Python \\
+-Web Programming: JSP, JSF, JPA, Restlet, Jersey, Flask, Sinatra \\
 -Databases: MySQL, Oracle, Cloudant
-%\cvitem{Used Operating Systems}{Windows, Ubuntu, Fedora, Chromium OS}
-%\section{Hobbies}
-%Body building, Footing, Cinema, Traveling
-\section{Languages}
-\cvitemwithcomment{Excellent skills for}{English, French and Arabic (mother tongue)}{}
 
 
-
-%\end{itemize}
 
 \end{document}
 
